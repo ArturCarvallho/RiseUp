@@ -1,134 +1,163 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../IMG/ME.png" type="image/x-icon">
-   
-    <title>Medida de Saude</title>
-  </head>
-  <body>
 
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light nav-top"><!-- Topo do site -->
-        <div class="container-fluid">
-          <div class="logo-button">
-            <a href="../HTML/index.html"> <img src="../IMG/Logo.png" alt="" width="90" height="60"> </a>
-           
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="../HTML/imc.html">IMC</a>
-              <a class="nav-link" href="../HTML/tbm.html">TBM</a>
-              <a class="nav-link" href="../HTML/index.html">Informações</a>
-              <a class="nav-link" href="../HTML/profissionais.html">Profissionais</a>
-              <a class="nav-link" href="../HTML/usuario.html">Usuário</a>
-            </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../IMG/ME.png" type="image/x-icon">
+
+  <title>Medida de Saude</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light nav-top">
+      <!-- Topo do site -->
+      <div class="container-fluid">
+        <div class="logo-button">
+          <a href="../../index.html"> <img src="../IMG/Logo.png" alt="" width="90" height="60"> </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="../HTML/imc.html">IMC</a>
+            <a class="nav-link" href="../HTML/tbm.html">TBM</a>
+            <a class="nav-link" href="../../index.html">Informações</a>
+            <a class="nav-link" href="../HTML/profissionais.html">Profissionais</a>
+            <a class="nav-link" href="../HTML/usuario.html">Usuário</a>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <section> <!--Conteudo do site-->
-      <div class="container">
-        <div class="row">
-          <div class="col"><!--Coluna do lateral-->
+  <section>
+    <!--Conteudo do site-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!--Coluna do lateral-->
+        </div>
+        <div class="col-7">
+          <!--Coluna do meio-->
+          <div class="tituloDaPagina">
+            <!--Tutulo da pagina-->
+            <h1>TMB</h1>
           </div>
-          <div class="col-7"> <!--Coluna do meio-->
-            <div class="tituloDaPagina"><!--Tutulo da pagina-->
-             <h1>TMB</h1>
-            </div><!--Tutulo da pagina-->
-            <div class="container"><!--colteiner dos capos de calculo-->
-              <div class="row">
-                <div class="col"><!--colteiner esquerdo-->
-                  <div class="espaco1"><!--conteudo-->
-                    <div class="row">       
-                      <div class="calculo">
-                        <h3 class="tituloCalculo">Nos informe:</h3>
-                          <div class="col-md-6">
-                            <label for="validationCustom03" class="form-label" >Peso</label>
-                            <input type="number" class="form-control" id="validationCustom03" placeholder="kg" min="0" max="3000">                          
-                          </div>                         
-                          <div class="col-md-6">
-                            <label for="validationCustom03" class="form-label">Altura</label>
-                            <input type="number" class="form-control" id="validationCustom03" placeholder="cm"min="0" max="400">                         
-                          </div>                                                   
-                          <div class="col-md-6">
-                            <label for="validationCustom05" class="form-label">Idade</label>
-                            <input type="number" class="form-control" id="validationCustom05" placeholder="Anos" min="1" max="150">                            
-                          </div>                          
-                          <div class="col-12">
-                            <button class="btn btn-primary" type="submit" style="background-color: #6768ab;">Calcular</button>
-                          </div>                      
-                      </div>                          
+          <!--Tutulo da pagina-->
+          <div class="container">
+            <!--colteiner dos capos de calculo-->
+            <div class="row">
+              <div class="col">
+                <!--colteiner esquerdo-->
+                <div class="espaco1">
+                  <!--conteudo-->
+                  <div class="row">
+                    <div class="calculo">
+                      <h3 class="tituloCalculo">Nos informe:</h3>
+                      <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Peso</label>
+                        <input type="number" class="form-control" id="validationCustom03" placeholder="kg" min="0"
+                          max="3000">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Altura</label>
+                        <input type="number" class="form-control" id="validationCustom03" placeholder="cm" min="0"
+                          max="400">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="validationCustom05" class="form-label">Idade</label>
+                        <input type="number" class="form-control" id="validationCustom05" placeholder="Anos" min="1"
+                          max="150">
+                      </div>
+                      <div class="col-12">
+                        <button class="btn btn-primary" type="submit"
+                          style="background-color: #6768ab;">Calcular</button>
+                      </div>
                     </div>
-                  </div><!--conteudo-->
-                </div><!--colteiner esquerdo-->
-                <div class="col"><!--colteiner direito-->
-                 <div class="espaco2"><!--conteudo-->
+                  </div>
+                </div>
+                <!--conteudo-->
+              </div>
+              <!--colteiner esquerdo-->
+              <div class="col">
+                <!--colteiner direito-->
+                <div class="espaco2">
+                  <!--conteudo-->
                   <h3 class="tituloResultado">Resultado:</h3>
                   <p class="textresultadotbm">Sua TBM:</p>
                   <div class="resultadotbm">
-                    <p class="resultadotext">2138.30</p> 
+                    <p class="resultadotext">2138.30</p>
                   </div>
-                  <div class="tituloResultado2"> <h3>Sua necessidade diaria de calorias:</h3></div>
+                  <div class="tituloResultado2">
+                    <h3>Sua necessidade diaria de calorias:</h3>
+                  </div>
                   <p class="ndcsem">Sem pratica <br> de atividades:</p>
                   <div class="resultadondcsem">
-                    <p class="resultadotextndcsem">2672.88</p> 
+                    <p class="resultadotextndcsem">2672.88</p>
                   </div>
                   <p class="ndcmode">Atividade <br> moderada:</p>
                   <div class="resultadondcmode">
-                    <p class="resultadotextndcmode">2886.70</p> 
+                    <p class="resultadotextndcmode">2886.70</p>
                   </div>
                   <p class="ndcinten">Atividade <br> intensa:</p>
                   <div class="resultadondcinten">
-                    <p class="resultadotextndcinten">3100.54</p> 
+                    <p class="resultadotextndcinten">3100.54</p>
                   </div>
-                 </div><!--conteudo-->
-                </div><!--colteiner direito-->
+                </div>
+                <!--conteudo-->
               </div>
-          </div><!--colteiner dos capos de calculo-->
+              <!--colteiner direito-->
+            </div>
+          </div>
+          <!--colteiner dos capos de calculo-->
           <div class="descricao">
-            <p>Metabolismo basal ou Taxa metabólica basal é um método matemático, não exato, de calcular a quantidade calórica que o corpo necessita, em vinte e quatro horas</p>
-          </div>
-          </div>
-          <div class="col"><!--Coluna do lateral-->
+            <p>Metabolismo basal ou Taxa metabólica basal é um método matemático, não exato, de calcular a quantidade
+              calórica que o corpo necessita, em vinte e quatro horas</p>
           </div>
         </div>
-    </section>
-    <!--Rodapé-->
-    <footer class="footer navbar-fixed-bottom">
-      <div class="rodape" >
-    <!--Logo da Unit-->
-    <div class="col-md-8">
-    <div class = "unit">
-    <img src="../IMG/Unit.png" alt="" width="110" height="70">
-    </div>
-    </div>
-    <!--Logo da Acenture-->
-    <div class="col-md-8">
-    <div class="accenture">
-      <img src="../IMG/accenture.png" alt="" width="120" height="80">
-    </div>
-    </div>
-    <!--Logo do porto-->
-    <div class="porto">
+        <div class="col">
+          <!--Coluna do lateral-->
+        </div>
+      </div>
+  </section>
+  <!--Rodapé-->
+  <footer class="footer navbar-fixed-bottom">
+    <div class="rodape">
+      <!--Logo da Unit-->
+      <div class="col-md-8">
+        <div class="unit">
+          <img src="../IMG/Unit.png" alt="" width="110" height="70">
+        </div>
+      </div>
+      <!--Logo da Acenture-->
+      <div class="col-md-8">
+        <div class="accenture">
+          <img src="../IMG/accenture.png" alt="" width="120" height="80">
+        </div>
+      </div>
+      <!--Logo do porto-->
+      <div class="porto">
         <img src="../IMG/porto.png" alt="" width="150" height="100">
       </div>
-    <!--Nome Dos Componentes do Squad-->
-      <div class= squad>
-            <p><strong> Squad 14: Artur Henrique, Daniel Vilela, Emily Raquel, Geovane Pontes, Helton Escobar, Miguel Luis, Jose Carlos, Paulo Messias, Vinicius Santana </p></strong>
+      <!--Nome Dos Componentes do Squad-->
+      <div class=squad>
+        <p><strong> Squad 14: Artur Henrique, Daniel Vilela, Emily Raquel, Geovane Pontes, Helton Escobar, Miguel Luis,
+            Jose Carlos, Paulo Messias, Vinicius Santana </p></strong>
       </div>
-    <!--Link do boostrap e CSS-->
+      <!--Link do boostrap e CSS-->
       <link rel="stylesheet" href="../CSS/Style-tbm.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </footer>
-  </body>
-</html>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+  </footer>
+</body>
 
-   
+</html>
